@@ -1,0 +1,43 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "id": "29a88944-b959-40c0-8767-41a2f4a6bf08",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "tables": {
+    "date_test": {
+      "name": "date_test",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "timestamp_test": {
+          "name": "timestamp_test",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "date_test": {
+          "name": "date_test",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  }
+}
